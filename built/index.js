@@ -217,6 +217,12 @@ var GameEndOverlay = function GameEndOverlay(_ref) {
       contents
     ),
     React.createElement(
+      'p',
+      { className: 'score' },
+      'Score: ⚠️Esto estará disponible en breves momentos⚠️',
+      board.score
+    ),
+    React.createElement(
       'button',
       { className: 'tryAgain', onClick: onRestart, onTouchEnd: onRestart },
       'Try again'

@@ -174,7 +174,17 @@ body {
   font-weight: bold;
   cursor: pointer;
   border: none;
-  border-radius: 5px; }
+  border-radius: 5px; 
+}
+
+.tryAgain:hover {
+  background-color: #2e2d2d; 
+}
 
 .overlay .message {
   color: #666; }
+
+
+.score {
+  font-size: 20px;
+}
